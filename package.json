@@ -1,19 +1,28 @@
 {
-  "name": "lecture8",
+  "name": "formulario",
   "version": "1.0.0",
-  "description": "",
-  "main": "ejemplo1.js",
+  "description": "> Cristian David Llanos Perez            \r > Richard Alexader Cortar Forero             \r > Edwin yesid Carreño              \r ## - Profesor:\r > ANDRES CAMILO JIMENEZ ALVAREZ\r # Descripcion de la actividad\r ACTIVIDAD DE CREAR FORMULARIOS Y ALMACENAR LA INFORMACION",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codingFULL/lecture8.git"
+    "url": "git+https://github.com/cristian536/Formulario-"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/codingFULL/lecture8/issues"
+    "url": " "
   },
-  "homepage": "https://github.com/codingFULL/lecture8#readme"
-}
+  "homepage": "https://github.com/cristian536/Formulario-#readme",
+  "dependencies": {
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "express-myconnection": "^1.0.4",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
