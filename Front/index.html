@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <script src="./scripts/validate.js"></script>
+    <title>Lib</title>
+  </head>
+  <body>
+    <h1>Página principal</h1>
+    <form
+      name="fNode"
+      action="http://localhost:8080/"
+      onsubmit="return validateForm()"
+      method="get"
+      target="testIframe"
+    >
+      <div class="inputData">
+        <label class="labelStyle" for="nombre">Nombre </label>
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre:" />
+      </div>
+      <div class="inputData">
+        <label class="labelStyle" for="apellido">Apellido </label>
+        <input
+          type="text"
+          name="apellido"
+          id="apellido"
+          placeholder="Apellido:"
+        />
+      </div>
+      <div class="inputData">
+        <input type="submit" value="enviar" />
+      </div>
+    </form>
+
+    <iframe name="testIframe" src="" frameborder="0"></iframe>
+  </body>
+</html>
